@@ -3,7 +3,11 @@ import './App.css';
 
 
 import fried from './imgs/beky17.jpg';
-import chicken from './imgs/beky14.jpg'
+import chicken from './imgs/beky14.jpg';
+import caesar from './imgs/beky22.jpg';
+import nest from './imgs/beky43.jpg';
+import best from './imgs/beky22.jpg';
+import last from './imgs/beky26.jpg';
 
 class Menu extends React.Component {
   constructor(props) {
@@ -29,26 +33,28 @@ class Menu extends React.Component {
           name: "Jollof Rice",
           description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
           price: 8.99,
-          // image: caesar
+          image: caesar
         },
         {
           id:4,
           name:"COCONUT RICE",
           description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
           price: 1500,
-          // image
+          image:nest
         },
         {
           id:5,
           name:"NATIVE RICE WITH BEEF SAUCE WITH WATER",
           description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
-          price:3000
+          price:3000,
+          image:best
         },
         {
           id:6,
           name:"COCONUT RICE WITH PEPPERED CHICKEN WITH A BOTTLE OF COKE",
           description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
-          price:3000
+          price:3000,
+          image:last
         }
       ]
     };
