@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-// import margherita from './images/margherita.jpg';
-// import pesto from './images/pesto.jpg';
-// import caesar from './images/caesar.jpg';
+
+import fried from './imgs/beky17.jpg';
+import chicken from './imgs/beky14.jpg'
 
 class Menu extends React.Component {
   constructor(props) {
@@ -12,24 +12,43 @@ class Menu extends React.Component {
       items: [
         {
           id: 1,
-          name: "Margherita Pizza",
+          name: "Fried Rice",
           description: "Tomato sauce, mozzarella, and basil",
-          price: 10.99,
-          // image: margherita
+          price: 1500,
+          image: fried
         },
         {
           id: 2,
-          name: "Pesto Pasta",
+          name: "Chicken",
           description: "Pasta with homemade pesto sauce and parmesan cheese",
-          price: 12.99,
-          // image: pesto
+          price: 1000,
+          image: chicken
         },
         {
           id: 3,
-          name: "Chicken Caesar Salad",
+          name: "Jollof Rice",
           description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
           price: 8.99,
           // image: caesar
+        },
+        {
+          id:4,
+          name:"COCONUT RICE",
+          description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
+          price: 1500,
+          // image
+        },
+        {
+          id:5,
+          name:"NATIVE RICE WITH BEEF SAUCE WITH WATER",
+          description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
+          price:3000
+        },
+        {
+          id:6,
+          name:"COCONUT RICE WITH PEPPERED CHICKEN WITH A BOTTLE OF COKE",
+          description: "Grilled chicken, romaine lettuce, croutons, and Caesar dressing",
+          price:3000
         }
       ]
     };

@@ -36,3 +36,19 @@ p:last-child {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+}
